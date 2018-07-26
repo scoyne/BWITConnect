@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
     s.author = ["Stephen Coyne"]
     s.email = 'scoyne@bw.edu'
     s.files = ["lib/bw-connect.rb"]
-    s.homepage = 'http://rubygems.org/gems/bw-connect'
+    s.homepage = 'http://rubygems.org/gems/bw-connect' 
     s.license = 'MIT'
+    s.add_runtime_dependency ['httparty', 'swagger']
 end
